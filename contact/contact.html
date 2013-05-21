@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>cmicho : contact</title>
+
+<meta name="Description" lang="fr" content="Vous pouvez joindre le consultant formateur Christophe Micheau à l'aide de ce formulaire de contact" />
+
+<link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+<link href="contact.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="/scripts/gen_validatorv31.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div>
+    	<ul>
+        	<li><a href="/index.html">Accueil</a></li>
+            <li><a href="/formations/formations.html">Formations</a></li>
+			<li><a href="/services/competences.html">Services</a></li>
+            <li><a href="/ressources/ressources.html">Ressources</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+		</ul>  
+    </div>
+    <div>
+        <article id="formulaire">
+        <h1>Formulaire de contact</h1>
+          <form method="post" name="myemailform" action="traitement.php">
+              <fieldset>
+                  <label for="name">Nom et prénom :</label>
+                  <input type="text" id="name" name="name" placeholder="Saisissez votre nom et prénom"/>
+      
+                  <label for="email">Email :</label>
+                  <input type="email" id="email" name="email" placeholder="Saisissez votre email"/>
+                  
+                  <label for="telephone">Téléphone :</label>
+                  <input type="tel" id="telephone" name="tel" placeholder="Saisissez votre téléphone" />
+      
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" placeholder="Ecrivez ici votre message"></textarea>
+                  
+                  <input type="submit" name='submit' value="Envoyer" />
+      
+              </fieldset>
+          </form>
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("myemailform");
+frmvalidator.addValidation("name","req","S'il vous plait, renseignez votre nom"); 
+frmvalidator.addValidation("email","req","S'il vous plait, ajoutez votre email"); 
+frmvalidator.addValidation("email","email","S'il vous plait, votre email doit être valide"); 
+</script>
+        </article>
+    </div>
+ <footer class="cop">
+ 		<div>
+      		<a class="accueil" href="/index.html"></a>
+		</div>
+    	<p>Christophe Micheau, membre du réseau AD'MISSIONS, gestion des documents administratifs et facturation, SAS au capital de 150.000 Euros,<br />enregistré sous le numéro de formation 11 92 09945 92<br />
+Siège social : 20, rue Brunel – 75017 Paris</p>
+ </footer>
+</body>
+</html>
