@@ -107,7 +107,7 @@ a:link {color: black;}
 /* 3==layout and modules */
 /* ----------------------------- */
 body {
-	background-image: url(/images/fond_base_form_plan.jpg);
+	background-image: url(images/fond_base_form_plan.jpg);
 	background-repeat: no-repeat;
 	background-attachment:scroll;
 	background-position:top;
@@ -445,7 +445,7 @@ tr.Row-Column-10 {
 /* box-sizing for IE6/IE7 */
 /* https://github.com/Schepp/box-sizing-polyfill
 .ie7 * {
-behavior: url(/js/boxsizing.htc);
+behavior: url(js/boxsizing.htc);
 }
 */
 

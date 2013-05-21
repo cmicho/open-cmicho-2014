@@ -347,7 +347,7 @@ p a:visited {color:rgb(255,81,0);}
 /* box-sizing for IE6/IE7 */
 /* https://github.com/Schepp/box-sizing-polyfill
 .ie7 * {
-behavior: url(/js/boxsizing.htc);
+behavior: url(js/boxsizing.htc);
 }
 */
 

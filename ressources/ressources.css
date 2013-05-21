@@ -109,7 +109,7 @@ a img { /* ce sélecteur élimine la bordure bleue par défaut affichée dans ce
 /* 3==layout and modules */
 /* ----------------------------- */
 body {
-	background-image: url(/images/fond_base_ressources.jpg);
+	background-image: url(images/fond_base_ressources.jpg);
 	background-repeat: no-repeat;
 	background-attachment:scroll;
 	background-position:top;
@@ -357,7 +357,7 @@ article {
 /* box-sizing for IE6/IE7 */
 /* https://github.com/Schepp/box-sizing-polyfill
 .ie7 * {
-behavior: url(/js/boxsizing.htc);
+behavior: url(js/boxsizing.htc);
 }
 */
 

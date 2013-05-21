@@ -380,7 +380,7 @@ ul.colonne ul li { font-weight:normal;}
 /* box-sizing for IE6/IE7 */
 /* https://github.com/Schepp/box-sizing-polyfill
 .ie7 * {
-behavior: url(/js/boxsizing.htc);
+behavior: url(js/boxsizing.htc);
 }
 */
 
